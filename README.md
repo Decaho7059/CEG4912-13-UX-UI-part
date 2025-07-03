@@ -121,3 +121,12 @@ Ce projet est distribué sous la licence MIT. Voir le fichier LICENSE pour plus 
 Pour toute question ou collaboration :
 📧 decahogbegbe@gmail.com
 📍 Gatineau, QC, Canada
+
+---
+# Data base screen
+<img src="https://github.com/user-attachments/assets/6633ff70-3dbf-4f44-b804-d1cb0ffe5f60" width="300">
+
+ # Animate web page
+<img src="https://github.com/user-attachments/assets/bde4031e-d9b1-40c5-bb23-bd4e2bc17462" width="300">
+
+
