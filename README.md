@@ -77,7 +77,7 @@ _Figure 4: Interface de l’administrateur_
 
 ### Utilisateur :
 _Figure 5: Interface utilisateur complète (inscription, carte, profil, etc.)_
-![Capture d'écran](images/ma_capture.png)
+![Capture d'écran](https://github.com/Decaho7059/CEG4912-13-UX-UI-part/blob/55f47e535eea51be80a02326ade755c61f5c8b6a/13.png)
 
 ---
 
