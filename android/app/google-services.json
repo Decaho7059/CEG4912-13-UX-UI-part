@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "317665390621",
+    "project_id": "mailboxpush-ec9c0",
+    "storage_bucket": "mailboxpush-ec9c0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317665390621:android:6162ec060dbc8c2d6e56f4",
+        "android_client_info": {
+          "package_name": "com.example.mailboxapp_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiQNQtlVO3u02mSlnpiguCJZ7GCXyX7fU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Pour Android 13 et au-dessus -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+            android:label="mailboxapp_project"
+            android:name="${applicationName}"
+            android:icon="@mipmap/ic_launcher"
+            android:allowBackup="true"
+            android:theme="@style/NormalTheme">
+
+        <!-- Ajoutez la clé API Google Maps ici -->
+        <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="AIzaSyB76SiKDdPwTIlIVORK5DS3YpQtyEYA_9Q" />
+
+        <!-- L'activité principale -->
+        <activity
+                android:name=".MainActivity"
+                android:exported="true"
+                android:launchMode="singleTop"
+                android:taskAffinity=""
+                android:theme="@style/LaunchTheme"
+                android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+                android:hardwareAccelerated="true"
+                android:windowSoftInputMode="adjustResize">
+            <meta-data
+                    android:name="io.flutter.embedding.android.NormalTheme"
+                    android:resource="@style/NormalTheme" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Configuration pour Awesome Notifications -->
+        <receiver android:name="me.carda.awesome_notifications.notifications.receivers.DismissedReceiver" android:exported="true"/>
+        <receiver android:name="me.carda.awesome_notifications.notifications.receivers.ActionReceiver" android:exported="true"/>
+        <receiver android:name="me.carda.awesome_notifications.notifications.receivers.NotificationReceiver" android:exported="true"/>
+        <receiver android:name="me.carda.awesome_notifications.notifications.receivers.KeepOnTopReceiver" android:exported="true"/>
+        <service
+                android:name="me.carda.awesome_notifications.notifications.services.NotificationService"
+                android:permission="android.permission.BIND_JOB_SERVICE"
+                android:exported="true"/>
+
+        <!-- Ne supprimez pas cette balise meta-data -->
+        <meta-data
+                android:name="flutterEmbedding"
+                android:value="2" />
+
+    </application>
+
+    <!-- Requis pour interroger les activités qui peuvent traiter du texte -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.PROCESS_TEXT" />
+            <data android:mimeType="text/plain" />
+        </intent>
+    </queries>
+</manifest>
