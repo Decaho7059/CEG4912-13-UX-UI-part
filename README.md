@@ -98,7 +98,7 @@ npm install
 npm start
 ```
 ---
-👥 Équipe de projet
+## 👥 Équipe de projet
 ```text
 Decaho Gbegbe – Développement mobile & UI/UX
 mayssatbe - Coordinatrice de projet
@@ -109,15 +109,15 @@ EsdrasSoumaili - Charger du suivi et du respect des delais des differentes parti
 ```
 ---
 
-🎓 Contexte
+## 🎓 Contexte
 Projet réalisé dans le cadre du cours CEG 4912-13 à l'université d'Ottawa,
 comme travail de fin d’études visant à explorer l'intégration des technologies mobiles, du matériel embarqué (IoT), du traitement d'image et des systèmes intelligents.
 
 ---
-📄 Licence
+## 📄 Licence
 Ce projet est distribué sous la licence MIT. Voir le fichier LICENSE pour plus d’informations.
 ---
-📬 Contact
+## 📬 Contact
 Pour toute question ou collaboration :
 📧 decahogbegbe@gmail.com
 📍 Gatineau, QC, Canada
