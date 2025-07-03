@@ -73,7 +73,7 @@ tout en intégrant une architecture backend robuste et des interactions matérie
 ![Capture d'écran](images/ma_capture.png)
 
 _Figure 4: Interface de l’administrateur_
-![Capture d'écran](images/ma_capture.png)
+![Capture d'écran](https://github.com/Decaho7059/CEG4912-13-UX-UI-part/blob/6c65db6f2a319befe061f501c38e5404c14c6210/12.png)
 
 ### Utilisateur :
 _Figure 5: Interface utilisateur complète (inscription, carte, profil, etc.)_
