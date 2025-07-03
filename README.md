@@ -75,12 +75,12 @@ MP : Admin123
 
 ---
 
-_Figure 4: Interface de l’administrateur_
+# _Figure 4: Interface de l’administrateur_
 ![Capture d'écran](https://github.com/Decaho7059/CEG4912-13-UX-UI-part/blob/6c65db6f2a319befe061f501c38e5404c14c6210/12.png)
 
 ---
 ### Utilisateur :
-_Figure 5: Interface utilisateur complète (inscription, carte, profil, etc.)_
+# _Figure 5: Interface utilisateur complète (inscription, carte, profil, etc.)_
 ![Capture d'écran](https://github.com/Decaho7059/CEG4912-13-UX-UI-part/blob/55f47e535eea51be80a02326ade755c61f5c8b6a/13.png)
 
 ---
